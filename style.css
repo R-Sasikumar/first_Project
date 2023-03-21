@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contextMenu{
+    width: 100px;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 1px;
+    box-shadow: 1px 1px 10px rgba(0 ,0, 0, 0.1);
+    user-select: none;
+    position: absolute;
+    display: none;
+
+
+}
+
+.contextItems:hover{
+    background-color: #f8f8f8;
+
+}
+
+.contextDiv{
+    border-bottom: 1px solid #eee;
+    margin-top: 10px 0;
+}
